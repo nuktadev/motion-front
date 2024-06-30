@@ -12,7 +12,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <>
+    <div className="flex flex-col">
       {/* <ShiftingCountdown />
       <Example />
       <LinkAnimation />
@@ -22,6 +22,7 @@ export default function Home() {
       <CustomKanban />
       <FlotingPhone /> */}
       <TryOne />
-    </>
+      <FlotingPhone />
+    </div>
   );
 }
